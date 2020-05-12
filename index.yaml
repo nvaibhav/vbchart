@@ -3,7 +3,7 @@ entries:
   ibm-cpq-prod:
   - apiVersion: v2
     appVersion: 10.0.0.5
-    created: "2020-05-12T05:54:40.039420901-07:00"
+    created: "2020-05-12T06:51:38.916691665-07:00"
     dependencies:
     - alias: sch
       name: ibm-sch
@@ -35,6 +35,6 @@ entries:
     - name: IBM
     name: ibm-cpq-prod
     urls:
-    - https://github.com/nvaibhav/vbchart/raw/master/charts/ibm-cpq-prod-2.0.0.tgz
+    - https://raw.githubusercontent.com/nvaibhav/vbchart/master/charts/ibm-cpq-prod-2.0.0.tgz
     version: 2.0.0
-generated: "2020-05-12T05:54:40.02037747-07:00"
+generated: "2020-05-12T06:51:38.899979765-07:00"
