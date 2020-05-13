@@ -3,14 +3,14 @@ entries:
   ibm-cpq-prod:
   - apiVersion: v2
     appVersion: 10.0.0.5
-    created: "2020-05-12T06:51:38.916691665-07:00"
+    created: "2020-05-13T01:08:33.52501619-07:00"
     dependencies:
     - alias: sch
       name: ibm-sch
       repository: '@sch'
       version: 1.2.15
-    description: IBM Sterling Configure, Price, Quote (CPQ) solution enables..
-    digest: e465370b89defc00155784374bb4941132818c7a5ee8ba7b68a6919a367d20c9
+    description: CPQ Temp Desc modified for testing ..
+    digest: b5a08830f7dfb0ce3695ad4214784ca7b1f773ae4e13259afd4fff2e3124394b
     icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-oms-logo.png
     keywords:
     - cpq
@@ -37,4 +37,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/nvaibhav/vbchart/master/charts/ibm-cpq-prod-2.0.0.tgz
     version: 2.0.0
-generated: "2020-05-12T06:51:38.899979765-07:00"
+generated: "2020-05-13T01:08:33.507546481-07:00"
