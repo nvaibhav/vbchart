@@ -2,8 +2,54 @@ apiVersion: v1
 entries:
   ibm-cpq-prod:
   - apiVersion: v2
+    appVersion: 10.0.0.14
+    created: "2020-12-13T22:29:53.582823485-08:00"
+    dependencies:
+    - alias: sch
+      name: ibm-sch
+      repository: '@sch'
+      version: 1.2.15
+    description: |-
+      IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.
+      To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.
+      IBM® Sterling Configure, Price, Quote solution automates every step of the configure, price and quote process to help organizations easily create Web storefronts, offer dynamic catalog and pricing information,  and direct customers and partners to find, configure and order the right products and services.
+      This enables you to transform how you sell complex products and services by removing the internal complexity of multi-tiered selling within your organization and with your partners.
+
+      Documentation
+      Additional information about installation can be found at https://ibm.biz/BdqqUS.
+
+      License
+      Sterling Configure Price Quote Software is licensed under https://ibm.biz/Bdqqgd which must be accepted during the install of the Product.
+    digest: bcc8f4bc56dc976c77047f3746238695339791458705da2fabc1b6738304c6dc
+    icon: https://raw.githubusercontent.com/IBM/charts/master/logo/ibm-oms-logo.png
+    keywords:
+    - cpq
+    - ifs
+    - sterling
+    - yantra
+    - order
+    - fulfillment
+    - om
+    - amd64
+    - framework
+    - Commercial
+    - RHOCP
+    - All items
+    - Languages
+    - Databases
+    - Middleware
+    - CI/CD
+    - Other
+    kubeVersion: '>=1.11.0'
+    maintainers:
+    - name: IBM
+    name: ibm-cpq-prod
+    urls:
+    - https://raw.githubusercontent.com/nvaibhav/vbchart/master/charts/ibm-cpq-prod-4.0.1.tgz
+    version: 4.0.1
+  - apiVersion: v2
     appVersion: 10.0.0.12
-    created: "2020-10-15T01:08:53.536435371-07:00"
+    created: "2020-12-13T22:29:53.553120178-08:00"
     description: |-
       IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.
       To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.
@@ -44,7 +90,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 10.0.0.10
-    created: "2020-10-15T01:08:53.512766362-07:00"
+    created: "2020-12-13T22:29:53.519930154-08:00"
     description: |-
       IBM Sterling Configure, Price, Quote (CPQ) solution enables you to quickly configure, price, quote and order the right products and services.
       To sell competitively in today’s multichannel environment, organizations need a way to easily manage product and service configuration and pricing rules that allow prospects, customers, sales staff, call center representatives and Business Partners to quickly find, configure and order the right products and services.
@@ -83,4 +129,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/nvaibhav/vbchart/master/charts/ibm-cpq-prod-3.1.0.tgz
     version: 3.1.0
-generated: "2020-10-15T01:08:53.476068061-07:00"
+generated: "2020-12-13T22:29:53.48597415-08:00"
